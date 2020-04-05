@@ -10,4 +10,10 @@ public class Cow implements Animal{
     public void makeSound() {
         System.out.println("Muu Muu");
     }
+
+    @Override
+    public void move() {
+        System.out.println("Klap klap");
+
+    }
 }
