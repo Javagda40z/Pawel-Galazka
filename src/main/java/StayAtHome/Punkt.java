@@ -5,20 +5,16 @@ import java.util.Random;
 public class Punkt {
 
    Random random = new Random();
-   int coordinates;
 
-   public Punkt (int coordinates){
-      this.coordinates = random.nextInt(9);
+   int coordinates = random.nextInt(9);
+
+   public int Punkt (int coordinates){
       this.coordinates = coordinates;
-   }
-
-   public int getCoordinates() {
       return coordinates;
    }
 
-   //   public static Punkt nowyPunkt(int coordinates){
-//      Random random = new Random();
-//      return nowyPunkt(random.nextInt(9));
-//   }
+   public void setCoordinates(int coordinates) {
+      this.coordinates = coordinates;
+   }
 }
 
