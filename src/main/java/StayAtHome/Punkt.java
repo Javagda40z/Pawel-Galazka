@@ -6,7 +6,7 @@ public class Punkt {
 
    Random random = new Random();
 
-   int coordinates = random.nextInt(9);
+   int coordinates = random.nextInt(15);
 
    public int Punkt (int coordinates){
       this.coordinates = coordinates;

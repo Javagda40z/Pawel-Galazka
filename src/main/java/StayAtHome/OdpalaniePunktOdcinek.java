@@ -6,9 +6,12 @@ public class OdpalaniePunktOdcinek {
 
         Odcinek odcinek = new Odcinek(new Punkt(),new Punkt());
         System.out.println(odcinek);
-        System.out.println(odcinek.getKoniec());
-        System.out.println(odcinek.getPoczątek());
+        System.out.println("Pierwszy punkt miejsce: " + odcinek.getPoczątek());
+        System.out.println("Drugi punkt miejsce: " + odcinek.getKoniec());
         System.out.println();
+        System.out.println("Długość odcinka: " + odcinek.długośćOdcinka());
+        Odcinek.rysowanieOdcinka();
+
 
         }
     }
