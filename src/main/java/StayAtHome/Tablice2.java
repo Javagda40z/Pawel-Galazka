@@ -18,12 +18,18 @@ public class Tablice2 {
             System.out.println(tablicaImion[i]);
         }
         tablicaImion[0] = "piotr";
+        System.out.println();
         System.out.println("Zmiana pierwszego imienia na piotr:");
 
         for (int i = 0; i < tablidaDługość; i++) {
             System.out.println(tablicaImion[i]);
+        }
 
-
+        System.out.println();
+        System.out.println("Umiona z dużej litery:");
+        for (int i = 0; i < tablidaDługość; i++) {
+            System.out.println(tablicaImion[i].substring(0,1).toUpperCase() + tablicaImion[i].substring(1));
         }
     }
 }
+
